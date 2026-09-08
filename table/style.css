@@ -1,0 +1,22 @@
+body {
+  background-color: #262339;
+  color: #dfdded;
+}
+table {
+  border-collapse: collapse;
+}
+th {
+  font-family: arial, sans-serif;
+  font-size: 8px;
+  border: 1px solid #6960ea;
+  padding: 4px;
+}
+td {
+  font-family: arial, sans-serif;
+  font-size: 10px;
+  border: 1px solid #6960ea;
+  text-align: center;
+}
+.red {
+  color: red;
+}
