@@ -9,38 +9,57 @@
   <body>
     <form>
       <fieldset class="fieldset">
-        <legend>
-          <h2>Ваши личные данные</h2>
-        </legend>
-        <label for="firsname">Ваше имя</label>
-        <input type="firstname" class="input-1" placeholder="Имя" required />
+        <legend>Ваши личные данные</legend>
+        <label for="firstname">Ваше имя</label>
+        <input
+          type="text"
+          id="firstname"
+          name="firstname"
+          placeholder="Имя"
+          required
+        />
         <label for="lastname">Ваша фамилия</label>
-        <input type="lastname" class="input-1" placeholder="Фамилия" required />
+        <input
+          type="text"
+          id="lastname"
+          name="lastname"
+          placeholder="Фамилия"
+          required
+        />
         <label for="age">Ваш возраст</label>
         <input
           type="number"
+          id="age"
+          name="age"
           inputmode="numeric"
           min="18"
           max="65"
           placeholder="18"
           required
         />
-        <label for="tel">Ваш номер телефона</label>
-        <input type="tel" placeholder="+7" required />
-        <label for="email">Ваша почта</label>
-        <input type="email" inputmode="email" required />
+        <label for="phone">Ваш номер телефона</label>
+        <input type="tel" id="phone" name="phone" placeholder="+7" required />
+        <label for="user_email">Ваша почта</label>
+        <input
+          type="email"
+          id="user_email"
+          name="email"
+          inputmode="email"
+          required
+        />
       </fieldset>
       <fieldset class="fieldset-2">
         <label class="about" for="about"> Сообщение </label>
         <textarea
           class="about-1"
+          id="about"
+          name="about"
           placeholder="Расскажи о себе"
           required
         ></textarea>
-        <label for="term">
           <div>
-            <input class="checkbox" type="checkbox" required />Я принимаю
-            правила
+            <input class="checkbox" type="checkbox" id="term" required />Я
+            принимаю правила
           </div>
         </label>
         <button class="button">Отправить</button>
